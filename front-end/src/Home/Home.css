@@ -1,0 +1,86 @@
+.logoutContainer{
+    position: absolute;
+    top: 200px;
+    width: 500px;
+    height: 200px;
+    border-radius: 20px;
+    z-index: 10;
+    box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.368);
+    background-color: rgb(43, 156, 226);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    .cont{
+        display: flex;
+        flex-direction: row;
+        width: 50%;
+        justify-content: space-around;
+    }
+}
+
+button:hover{
+    cursor: pointer;
+}
+.nav2{
+    display: none;
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    background-color: gold;
+    box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.368);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    top: 0px;
+    position: absolute;
+    left: 0px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+
+    .navbar{
+        z-index: 10;
+        h1{
+            font-size: 40px;
+        }
+        position: relative;
+        padding: 20px;
+        height: 150px;
+        width: 98%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(3, 249, 167);
+        box-shadow: 5px 0px 5px 2px rgba(0, 0, 0, 0.368);
+
+        .navItems{
+            position: relative;
+            display: flex;
+            right: 0px;
+            width: 100%;
+            justify-content: space-around;
+            p{
+                padding: 20px;
+                font-size: 20px;
+            }
+            p:hover{
+                border-radius: 20px;
+                color: black;
+                background-color: rgb(43, 156, 226);
+                cursor: pointer;
+            }
+        }
+        
+    }
+}
